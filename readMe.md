@@ -1,0 +1,3 @@
+**Welcome to Scribble 2.0**
+
+After struggling to refactor my capstone project into something more complete and refined, I realized that I have grown a lot as a developer and rebuilding it from the ground up would serve me better. Ahh the simultaneous pain and pleasure of learning that you've outgrown your old code and now have to deal with the consequences...
