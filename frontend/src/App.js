@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState, useEffect } from 'react';
 import { useDispatch } from "react-redux"
 import { Route, Switch } from 'react-router-dom'
 
@@ -12,6 +13,9 @@ function App() {
     <>
       {isLoaded && (
         <Switch>
+          <Route exact path='/'>
+            <h1>Hello World</h1>
+          </Route>
         </Switch>
       )}
     </>
