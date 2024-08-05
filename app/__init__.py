@@ -6,7 +6,7 @@ from flask_wtf.csrf import CSRFProtect, generate_csrf
 from .models import db
 from .config import Config
 
-app = Flask(__name__, static_folder='../frontend/public', static_url_path='/')
+app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
 
 app.config.from_object(Config)
 
